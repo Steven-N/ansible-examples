@@ -1,7 +1,6 @@
 [webservers]
-web3
+172.16.200.11 ansible_connection=ssh ansible_ssh_user=root ansible_ssh_pass=telecoms144
 
 [dbservers]
-web2
-
+localhost ansible_connection=local
 
