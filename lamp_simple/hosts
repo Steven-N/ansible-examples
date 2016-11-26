@@ -1,5 +1,5 @@
 [webservers]
-172.16.200.12 ansible_connection=ssh ansible_ssh_user=openadmin ansible_ssh_pass=telecoms144
+172.16.200.12 ansible_connection=ssh ansible_ssh_user=root ansible_ssh_pass=telecoms144
 
 [dbservers]
 localhost ansible_connection=local
