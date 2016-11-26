@@ -2,4 +2,4 @@
 localhost ansible_connection=local ansible_become=true ansible_become_method=su ansible_become_exe="sudo su -" 
 
 [dbservers]
-172.16.200.12 ansible_connection=ssh  ansible_become=true ansible_become_method=su ansible_become_exe="sudo su -" ansible_ssh_user=openadmin ansible_ssh_pass=telecoms144
+10.0.3.24 ansible_connection=ssh  ansible_become=true ansible_become_method=su ansible_become_exe="sudo su -" ansible_ssh_user=openadmin ansible_ssh_pass=telecoms144
